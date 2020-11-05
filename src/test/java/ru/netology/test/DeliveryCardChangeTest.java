@@ -24,6 +24,7 @@ public class DeliveryCardChangeTest {
         SelenideLogger.removeListener("allure");
     }
 
+
     @Test
     void shouldSendDataForDelivery() {
         String date = getDate(4);
